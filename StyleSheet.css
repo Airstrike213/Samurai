@@ -5,18 +5,23 @@ body
     background-attachment:fixed;
     background-size: cover;
 }
-h1 
-{
-    text-shadow: 2px 2px 5px red;
-}
 h1, p
 {
-    color: black; 
+    color: white; 
     text-align: center;
     margin:auto;
     padding: 10px;
-    background-color: crimson;
-    width: 30%;
+    background-color: rgba(0255, 0, 0, 0.75);
+    width: 50%;
+}
+h1 
+{
+    text-shadow: 4px 2px 5px rgb(0, 0, 0);
+    font-size 100px;
+    font: 100;
+}
+p{
+    font-size: 2em;
 }
 a:link
 {
