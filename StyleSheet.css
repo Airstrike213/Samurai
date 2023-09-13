@@ -1,0 +1,12 @@
+body
+{
+    background-image: url(new.webp);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+h1, p
+{
+    color: white; 
+    text-align: center;
+    background: rgba(0, 128, 0, 0.3);
+}
