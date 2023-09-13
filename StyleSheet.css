@@ -1,12 +1,32 @@
 body
 {
-    background-image: url(new.webp);
+    background-image: url(SamuraiBG.jpeg);
     background-repeat: no-repeat;
     background-attachment:fixed;
+    background-size: cover;
+}
+h1 
+{
+    text-shadow: 2px 2px 5px red;
 }
 h1, p
 {
-    color: white; 
+    color: black; 
     text-align: center;
-    background: rgba(0, 128, 0, 0.3);
+    margin:auto;
+    padding: 10px;
+    background-color: crimson;
+    width: 30%;
+}
+a:link
+{
+    color:white
+}
+a:visited
+{
+    color:blue
+}
+a:hover
+{
+    cursor: url(katana-cursor1.png), auto;
 }
