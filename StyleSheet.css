@@ -38,7 +38,7 @@ a:visited
 a:hover
 {
     cursor: url(katana-cursor1.png), auto;
-    inset: 1em
+    transform: scaleX(0.5)
     
 }
 .tl {
