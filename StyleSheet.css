@@ -1,79 +1,70 @@
 body
 {
-    background-image: url(SamuraiBG1.jpeg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+  background-image: url(SamuraiBG1.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 h1, p
 {
-    color: black; 
-    text-align: center;
-    margin:auto;
-    padding: 10px;
-    background-color: rgba(129, 143, 134, 0.65);
-    width: 50%;
+  color: black; 
+  text-align: center;
+  margin:auto;
+  background-color: rgba(129, 143, 134, 0.65);
+  width: 50%;
 }
 h1 
 {
-    text-shadow: 4px 2px 5px rgb(0, 0, 0);
-    font-size: 100px;
-    font: 100;
-    position: sticky;
-    top: 0.1em;
-    background-color: rgba(129, 143, 134);
+  text-shadow: 4px 2px 5px rgb(0, 0, 0);
+  font-size: 5em;
+  position: sticky;
+  top: 0em;
+  background-color: rgba(129, 143, 134);
 
 }
 p{
-    font-size: 2em;
+  font-size: 2em;
 }
 a:link
 {
-    color:white
+  color:white
 }
 a:visited
 {
-    color:blue
+  color:red
 }
 a:hover
 {
-    cursor: url(katana-cursor1.png), auto;
-    transform: scaleX(0.5);
+  cursor: url(katana-cursor1.png), auto;
+  ;
     
 }
-.tl {
-    position: fixed;
-    top: 10em;
-    left: 1em;
-    font-size: 1em;
-    height: auto;
-    width: 21%;
+.tl 
+{
+  position: fixed;
+  top: 10em;
+  left: 1em;
+  font-size: 1em;
+  height: auto;
+  width: 21%;
   }
-  .dl {
-    position: fixed;
-    bottom: 5em;
-    left: 1em;
-    font-size: 1em;
-    height: auto;
-    width: 21%;
-    transition: 0.5s;
-    background: linear-gradient(45deg, red,black);
-  }
-  .dl :hover ::before
+  .dl 
   {
-    inset: 0em;
-  }
-  .dl :hover ::after
-  {
-    inset: +0.5em;
-    
+  position: fixed;
+  bottom: 5em;
+  left: 1em;
+  font-size: 1em;
+  height: auto;
+  width: 21%;
+  transition: 0.5s;
+  background: linear-gradient(45deg, red,black);
   }
   .rightspace
   {
-    top: 5em;
-    right: 1em;
-    bottom: 1em;
-    max-width: max-content;
-    max-height: 100em;
-    position: fixed;
+  top: 5em;
+  right: 1em;
+  bottom: 1em;
+  max-width: max-content;
+  max-height: 100em;
+  position: fixed;
   }
