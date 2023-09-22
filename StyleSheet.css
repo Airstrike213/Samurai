@@ -44,6 +44,10 @@ a:hover
 {
 cursor: url(katana-cursor1.png), auto;
 }
+image:hover
+{
+  transform: scale(1vw);
+}
 .tl 
 {
 position: fixed;
