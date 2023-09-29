@@ -3,12 +3,12 @@
   position: static;
   right: 0%;
   color: black; 
-text-align: center;
-margin:auto;
-background-color: rgba(129, 143, 134, 0.836);
-width: 50%;
-margin-left: 25%;
-padding: 0%;
+  text-align: center;
+  margin:auto;
+  background-color: rgba(129, 143, 134, 0.836);
+  width: 50%;
+  margin-left: 25%;
+  padding: 0%;
 }
 .audioshow{
   @media only screen and (min-width: 670px){
@@ -217,46 +217,45 @@ text-decoration: none;
 color: #fff;
 }
 li a {
-    color: white;
-    padding: 1em;
-  }
+  color: white;
+  padding: 1em;
+}
   
-  li a:hover:not(.active) {
-    background-color: #111;
-  }
+li a:hover:not(.active) {
+  background-color: #111;
+}
   
-  audio
-  {
-    position: fixed;
-    right: 1vw;
-    width: 20vw;
-    @media only screen and (max-width: 670px){
-      visibility: hidden;
+audio
+{
+  position: fixed;
+  right: 1vw;
+  width: 20vw;
+  @media only screen and (max-width: 670px){
+    visibility: hidden;
     }
+}
+.sidebar {
+  height: 100%;
+  width: 25vw;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #182e1f;
+  overflow-x: hidden;
+  padding-top: 16px;
+  @media only screen and (min-width:1200px) {
+    display: none;    
   }
-  .sidebar {
-    height: 100%;
-    width: 25vw;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #182e1f;
-    overflow-x: hidden;
-    padding-top: 16px;
-    @media only screen and (min-width:1200px) {
-      display: none;
-      
-    }
-  }
+}
   
-  .sidebar a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: #ffffff;
-    display: block;
-  }
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+}
 
 header {
   @media only screen and (max-width:1200px) {
